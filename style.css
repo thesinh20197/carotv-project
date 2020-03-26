@@ -77,12 +77,17 @@ body {
     width: 100%;
 }
 
+.main-menu {
+    margin-top: 30px;
+}
+
 .logbtn {
     display: block;
-    width: 100%;
-    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    height: 40px;
     border: none;
-    background: linear-gradient(120deg, #3498db, #8e44ad, #3498db);
+    background: linear-gradient(120deg, #d4db34, #e50f0f, #dd7715);
     background-size: 200%;
     color: #fff;
     outline: none;
@@ -103,4 +108,26 @@ body {
     margin-top: 60px;
     text-align: center;
     font-size: 13px;
+}
+
+.bottom-nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-nav .button span {
+    padding: 14px 18px;
+    border-radius: 100vw;
+    background-color: gray;
+}
+
+.bottom-nav .button span i {
+    color: white;
+}
+
+.bottom-nav .button span:nth-child(n+1),
+.bottom-nav .button span:nth-child(n+2) {
+    margin: 0 10px;
 }
